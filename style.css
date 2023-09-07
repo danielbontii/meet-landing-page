@@ -11,11 +11,11 @@ body {
   font-style: normal;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
-  color: #87879D;
+  color: #87879d;
 }
 
 p {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .logo-wrapper {
@@ -73,16 +73,92 @@ p {
   font-weight: 900;
 }
 
-.btn-download {
+.btn-download-header {
   margin-top: 2rem;
   background: #4d96a9;
 }
 
-.download-version {
+.download-version-header {
   color: #8fe3f9;
 }
 
 .btn-what {
   margin-top: 1rem;
   background: #855fb1;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.top-01,
+.bottom-02 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.line {
+  height: 5.25rem;
+  width: 1px;
+  background-color: #87879d;
+  opacity: 0.25;
+}
+
+.circle {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1.8rem;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25rem;
+  margin-top: 4rem;
+}
+
+.chat-img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.main-content-info {
+  margin-top: 4rem;
+}
+
+.main-content-h2 {
+  color: #4d96a9;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.6rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.main-content-h3 {
+  margin-top: 1.25rem;
+  color: #28283d;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.25rem; /* 112.5% */
+}
+
+.main-content-p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.62rem; /* 162.5% */
+}
+
+.bottom-02 {
+  margin-top: 4rem;
 }
