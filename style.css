@@ -78,8 +78,16 @@ p {
   font-weight: 900;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-download-header {
   background: #4d96a9;
+}
+
+.btn-download-header:active {
+  background-color: #71c0d4;
 }
 
 .download-version-header {
@@ -89,6 +97,11 @@ p {
 .btn-what {
   margin-top: 1rem;
   background: #855fb1;
+}
+
+.btn-what:active,
+.btn-download-footer:active {
+  background-color: #b18bdd;
 }
 
 .main-content {
@@ -102,6 +115,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .line {
@@ -170,6 +185,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 5rem 2rem;
   color: #fafafa;
   margin-top: -1.5rem;
@@ -177,7 +193,6 @@ p {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  z-index: -1;
 }
 
 .footer::before {
